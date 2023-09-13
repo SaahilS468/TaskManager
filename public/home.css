@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.lst-main{
+    width: 35%;
+}
+
+.lst{
+    background: rgb(6, 155, 135);
+}
+
+.cont{
+    background: rgb(6, 155, 135);
+}
+
+.logreg-form{
+    margin: 2rem;
+}
+
+label{
+    margin-top: 1.5rem;
+}
