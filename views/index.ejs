@@ -32,8 +32,8 @@
                 <li class="d-flex align-items-center justify-content-between my-2 px-4 py-2 lst">
                     <span class="h3"><%= task.task %></span>
                     <span>
-                        <a href="/edit/<%= task._id %>"><i class="bi bi-pencil-square btn btn-outline-warning"></i></a>
-                        <a href="/delete/<%= task._id %>" class="mx-1"><i class="bi bi-x-circle-fill btn btn-outline-danger"></i></a>
+                        <a href="home/edit/<%= task._id %>"><i class="bi bi-pencil-square btn btn-outline-warning"></i></a>
+                        <a href="home/delete/<%= task._id %>" class="mx-1"><i class="bi bi-x-circle-fill btn btn-outline-danger"></i></a>
                     </span>
                 </li>
                 <% }) %>
